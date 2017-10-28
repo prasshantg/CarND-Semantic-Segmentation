@@ -30,7 +30,7 @@ The hyperparameters used for training are:
   - keep_prob: 0.5
   - learning_rate: 0.0001
   - epochs: 50
-  - batch_size: 20
+  - batch_size: 10
 
 Loss trend over epoch with epochs = 5 and batch size = 5, it goes till 0.7. No improvement after that. Increasing batch size results in much better improvement with loss of just 0.1 after 5 epochs. I increased number of epochs to 50 which helped to get loss under 0.02.
 
